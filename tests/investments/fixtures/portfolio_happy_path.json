@@ -1,0 +1,33 @@
+{
+  "fixture_version": 1,
+  "owner_id": "owner_demo_01",
+  "account": {
+    "investment_account_id": "inv_account_demo_01",
+    "provider": "synthetic_provider",
+    "base_currency": "EUR",
+    "book": "portfolio"
+  },
+  "instrument": {
+    "instrument_id": "instrument_demo_fund_01",
+    "instrument_kind": "fund",
+    "name_display": "Fondo Índice Sintético Global",
+    "currency": "EUR",
+    "isin": null
+  },
+  "operations": [
+    {"operation_id": "op_demo_001", "kind": "external_deposit", "effective_date": "2026-01-02", "cash_eur": "1500.00", "status": "booked"},
+    {"operation_id": "op_demo_002", "kind": "buy", "effective_date": "2026-01-03", "cash_eur": "-900.00", "instrument_quantity": "9.000000", "status": "booked"},
+    {"operation_id": "op_demo_003", "kind": "fee", "effective_date": "2026-01-03", "cash_eur": "-2.00", "status": "booked"},
+    {"operation_id": "op_demo_004", "kind": "dividend", "effective_date": "2026-01-31", "cash_eur": "20.00", "status": "booked"},
+    {"operation_id": "op_demo_005", "kind": "external_withdrawal", "effective_date": "2026-02-01", "cash_eur": "-250.00", "status": "booked"}
+  ],
+  "closing_price": {"effective_date": "2026-02-01", "price": "105.00", "currency": "EUR", "kind": "nav"},
+  "expected": {
+    "cash_eur": "368.00",
+    "instrument_quantity": "9.000000",
+    "instrument_value_eur": "945.00",
+    "portfolio_value_eur": "1313.00",
+    "net_external_contribution_eur": "1250.00",
+    "result_eur": "63.00"
+  }
+}

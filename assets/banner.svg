@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Personal finance engine</title><desc id="desc">Typed contracts · Financial correctness · Explicit coverage</desc>
+<rect width="1200" height="300" rx="18" fill="#0c1728"/>
+<path d="M820 225 L875 175 L918 191 L966 124 L1015 145 L1060 82 L1135 52" fill="none" stroke="#4dd9bf" stroke-width="5" opacity=".85"/>
+<path d="M820 247 H1140 M820 200 H1140 M820 153 H1140 M820 106 H1140 M820 59 H1140" stroke="#ffffff" opacity=".07"/>
+<rect x="55" y="58" width="5" height="181" fill="#4dd9bf" rx="2"/>
+<g font-family="Arial, Helvetica, sans-serif"><text x="80" y="85" font-size="16" letter-spacing="3" fill="#4dd9bf">ENGINEERING / 02</text>
+<text x="78" y="156" font-size="46" font-weight="700" fill="#f6f8fc">Personal finance engine</text>
+<text x="80" y="207" font-size="19" fill="#b4c2d8">Typed contracts · Financial correctness · Explicit coverage</text></g></svg>

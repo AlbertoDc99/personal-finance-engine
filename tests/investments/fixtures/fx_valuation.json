@@ -1,0 +1,14 @@
+{
+  "fixture_version": 1,
+  "instrument": {
+    "instrument_id": "instrument_demo_equity_usd_01",
+    "instrument_kind": "equity",
+    "name_display": "Acción Sintética USD",
+    "ticker": "SYNTH",
+    "mic": "XNAS",
+    "currency": "USD"
+  },
+  "position": {"quantity": "10", "price": "50.00", "native_currency": "USD"},
+  "fx": {"pair": "USD/EUR", "rate": "0.92", "effective_date": "2026-02-06"},
+  "expected": {"native_value_usd": "500.00", "value_eur": "460.00"}
+}

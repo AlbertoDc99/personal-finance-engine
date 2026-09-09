@@ -1,0 +1,22 @@
+{
+  "fixture_version": 1,
+  "weekend_carry_forward": {
+    "last_price_date": "2026-02-06",
+    "valuation_dates": ["2026-02-07", "2026-02-08"],
+    "expected_price_effective_date": "2026-02-06",
+    "expected_state": "complete_carried_forward"
+  },
+  "missing_price": {
+    "instrument_id": "instrument_demo_missing_01",
+    "quantity_known": true,
+    "price_known": false,
+    "expected_portfolio_state": "partial",
+    "expected_return": null
+  },
+  "snapshot_discrepancy": {
+    "derived_quantity": "100.000000",
+    "provider_quantity": "99.000000",
+    "expected_action": "open_reconciliation_incident",
+    "replace_verified_release": false
+  }
+}

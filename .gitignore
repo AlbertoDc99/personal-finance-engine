@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env*
+*.pem
+*.key
+*.csv
+*.xlsx
+*.parquet
+*.pdf
+secrets.toml
